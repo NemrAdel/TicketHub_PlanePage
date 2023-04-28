@@ -39,7 +39,7 @@
   margin-top: 18px;
 }
 h1:hover{
-  cursor: default;
+cursor: default;
 }
 .login form label {
   color: white;
