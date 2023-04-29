@@ -33,13 +33,10 @@
 }
 .login h1 {
   text-align: center;
-  color: black;
+  color: #fff;
   font-size: 25px;
   padding-bottom: 20px;
   margin-top: 18px;
-}
-h1:hover{
-cursor: default;
 }
 .login form label {
   color: white;
