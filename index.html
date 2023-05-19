@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TicketPlane</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Plane Page</title>
+    <link rel="stylesheet" href="PlanePage.css" />
     <link rel="shortcut icon" href="images/tickets.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <div class="login">
         <img class="user" src="images/tickets.png" alt="" />
-        <h1>Welcome Back</h1>
+        <h1>Enjoy !</h1>
         <form>
           <label for="Fname">First Name</label>
           <input id="Fname" type="text" placeholder="Enter first name" />
@@ -20,23 +23,24 @@
           <input id="Lname" type="text" placeholder="Enter last name" />
 
           <label for="age">age</label>
-          <input id="age" type="text" placeholder="Enter your age" />
+          <input id="age" type="number" placeholder="Enter your age" />
 
           <label for="Phone">phone</label>
-          <input id="Phone" type="tel" placeholder="Enter phone number" />
+          <input id="Phone" type="number" placeholder="Enter phone number" />
 
           <label for="id_num">id</label>
-          <input id="id_num" type="text" placeholder="Enter id" />
-          <button id="save" type="button">save</button>
+          <input id="id_num" type="number" placeholder="Enter id" />
+          <!-- <button id="save" type="button">save</button> -->
+          <button id="save" type="submit">save</button>
         </form>
 
         <div class="bottom-div">
           <div class="line-or">
-            <span>Ticket-Hub</span>
+            <span>Ticket Hub</span>
           </div>
         </div>
       </div>
     </div>
-    <script src="./index.js"></script>
+    <!-- <script src=".js"></script> -->
   </body>
 </html>
